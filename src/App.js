@@ -63,7 +63,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header title="My Todos List By Aakash Tyagi hello " searchbar={false} />
+        <Header title="My Todos List By Aakash Tyagi" searchbar={false} />
         <Switch>
           <Route exact path="/" render={() => {
             return (
